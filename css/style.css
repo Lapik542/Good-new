@@ -100,6 +100,7 @@ h6 {
   margin-left: 100px;
   margin-top: 80px;
 
+
   float: left;
 
   border-radius: 40px;
@@ -112,9 +113,6 @@ h6 {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-
-  margin-top: 35px;
-  margin-left: 32px;
 }
 
 .time {
@@ -123,8 +121,6 @@ h6 {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-
-  margin-left: 32px;
 }
 
 .opened {
@@ -135,15 +131,18 @@ h6 {
   font-weight: 700;
   line-height: normal;
 
-  margin-right: 24px;
+  padding: 14px;
 }
 
 hr {
   background: #000;
   height: 1px;
-  width: 356px;
-  margin-left: 18px;
-  margin-top: 56px;
+  width: 330px;
+
+}
+
+.botton {
+  padding: 32px;
 }
 
 .theme {
@@ -153,8 +152,7 @@ hr {
   font-weight: 700;
   line-height: normal;
 
-  margin-left: 32px;
-  margin-top: 20px;
+  padding-top: 24px;
 }
 
 .need {
@@ -164,7 +162,8 @@ hr {
   font-weight: 700;
   line-height: normal;
 
-  margin-left: 32px;
+  padding-bottom: 24px;
+
 }
 
 .aadress {
@@ -173,19 +172,28 @@ hr {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+
+  padding-top: 14px;
+
 }
 
-.checkbox-group {
-  margin-left: 32px;
-  margin-top: 22px;
-}
+
 
 .checkbox {
   width: 20px;
   height: 20px;
+
+}
+
+.checkbox-group {
+  padding-bottom: 24px;
 }
 
 /* CONTAINER RIGHT */
+
+.regist {
+  padding: 32px;
+}
 
 .contant-right {
   width: 830px;
@@ -194,10 +202,10 @@ hr {
   border-radius: 40px;
   background: #f4f4f4;
 
-  float: right;
-
+  margin-right: 60px;
   margin-top: 80px;
-  margin-right: 80px;
+
+  float: right;
 }
 
 .reg {
@@ -208,7 +216,6 @@ hr {
   font-weight: 700;
   line-height: normal;
 
-  margin-left: 33px;
 }
 
 .places {
@@ -219,9 +226,7 @@ hr {
   font-weight: 400;
   line-height: normal;
 
-  margin-left: 33px;
-  margin-top: 33px;
-  margin-right: 13px;
+  margin-left: 14px;
 }
 
 .number {
@@ -231,7 +236,13 @@ hr {
   font-weight: 700;
   line-height: normal;
 
-  margin-right: 220px;
+
+}
+
+.cancel-was {
+  display: flex;
+  display: inline-block;
+  float: right;
 }
 
 .cancel {
@@ -241,7 +252,7 @@ hr {
   align-items: center;
   gap: 10px;
 
-  margin-right: 23px;
+  margin-right: 24px;
 
   border-radius: 20px;
   background: #e3e5e7;
@@ -260,10 +271,16 @@ hr {
 
 /* NAME-SURNAME */
 
+.name-surname {
+}
+
 .registr {
   display: flex;
-  margin-top: 50px;
-  margin-left: 34px;
+}
+
+.name-type,
+.type-surname {
+  padding: 14px 32px;
 }
 
 .name {
@@ -273,7 +290,9 @@ hr {
   font-weight: 700;
   line-height: normal;
 
-  margin-bottom: 9px;
+  margin-bottom: 8px;
+
+
 }
 
 .surname {
@@ -283,15 +302,14 @@ hr {
   font-weight: 700;
   line-height: normal;
 
-  margin-bottom: 9px;
+  margin-bottom: 8px;
 }
 
 .type-name {
   width: 344px;
   height: 51px;
 
-  margin-right: 28px;
-  padding-left: 18px;
+  padding-left: 14px;
 
   border-radius: 20px;
   background: #e3e5e7;
@@ -299,12 +317,12 @@ hr {
 
 /* AGE-PHONE-CITY */
 
-.info-user {
-  display: flex;
+.info-age-num-city {
+  padding: 14px 32px;
 }
 
-.age {
-  margin-left: 32px;
+.info-user {
+  display: flex;
 }
 
 .age,
@@ -317,8 +335,6 @@ hr {
   line-height: normal;
 
   margin-bottom: 9px;
-
-  margin-top: 50px;
 }
 
 .age-text {
@@ -326,9 +342,8 @@ hr {
   height: 51px;
   flex-shrink: 0;
 
-  margin-left: 32px;
-  margin-right: 28px;
-  padding-left: 18px;
+  margin-right: 40px;
+  padding-left: 14px;
 
   border-radius: 20px;
   background: #e3e5e7;
@@ -339,8 +354,8 @@ hr {
   height: 51px;
   flex-shrink: 0;
 
-  margin-right: 28px;
-  padding-left: 18px;
+  margin-right: 40px;
+  padding-left: 14px;
 
   border-radius: 20px;
   background: #e3e5e7;
@@ -359,9 +374,12 @@ hr {
 
 /* INST-EMAIL */
 
+.email-inst {
+  padding: 14px 32px;
+}
+
 .inst-gmail {
   display: flex;
-  margin-top: 70px;
 }
 
 .inst-text {
@@ -371,7 +389,9 @@ hr {
   font-weight: 700;
   line-height: normal;
 
-  margin-left: 32px;
+  margin-right: 38px;
+  margin-bottom: 8px;
+
 }
 
 .inst {
@@ -379,8 +399,6 @@ hr {
   height: 51px;
   flex-shrink: 0;
 
-  margin-left: 32px;
-  margin-right: 28px;
   padding-left: 14px;
 
   border-radius: 20px;
@@ -393,6 +411,9 @@ hr {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+
+  margin-left: 38px;
+  margin-bottom: 8px;
 }
 
 .gmail {
@@ -401,12 +422,18 @@ hr {
   flex-shrink: 0;
 
   padding-left: 14px;
+  margin-left: 40px;
+
 
   border-radius: 20px;
   background: #e3e5e7;
 }
 
 /* FOOTER BUTTON-P */
+
+.footer-button {
+  padding: 40px 32px;
+}
 
 .end-button {
   display: flex;
@@ -416,8 +443,7 @@ hr {
   align-items: center;
   gap: 10px;
 
-  margin-left: 60px;
-  margin-top: 50px;
+  margin-left: 50px;
 
   border-radius: 20px;
   background: #000;
@@ -431,13 +457,18 @@ hr {
   font-size: 11px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
 
-  margin-left: 34px;
-  margin-top: 34px;
 }
 
 /* BLOCK-2 */
+
+.content-top {
+  padding: 0 32px;
+}
+
+.content-bottom {
+  padding: 0 32px;
+}
 
 .float {
   float: left;
@@ -450,11 +481,15 @@ hr {
   height: 201px;
   flex-shrink: 0;
 
+  margin-top: 18px;
   margin-left: 24px;
-  margin-top: 20px;
 
   border-radius: 40px;
   background: #f4f4f4;
+}
+
+.header-container {
+  padding: 10px 32px;
 }
 
 .happy {
@@ -464,8 +499,7 @@ hr {
   font-weight: 700;
   line-height: normal;
 
-  margin-top: 34px;
-  margin-left: 28px;
+
 }
 
 .phone-num {
@@ -475,8 +509,7 @@ hr {
   font-weight: 700;
   line-height: normal;
 
-  margin-left: 28px;
-  margin-top: 10px;
+  margin-top: 24px;
 }
 
 .phone {
@@ -484,9 +517,9 @@ hr {
   height: 51px;
   flex-shrink: 0;
 
-  margin-left: 24px;
-  margin-top: 24px;
   padding-left: 14px;
+
+  margin-top: 8px;
 
   border-radius: 20px;
   background: #e3e5e7;
@@ -494,6 +527,8 @@ hr {
 
 .float2 {
   float: right;
+  
+  padding: 28px 14px;
 }
 
 .vector {
@@ -504,8 +539,8 @@ hr {
   padding: 10px 30px;
   gap: 10px;
 
-  margin-top: 38px;
-  margin-bottom: 42px;
+  margin-bottom: 40px;
+
 
   border-radius: 20px;
   background: #e3e5e7;
@@ -518,11 +553,18 @@ hr {
   align-items: center;
   gap: 10px;
 
-  margin-right: 32px;
 
   border-radius: 20px;
   background: #000;
   color: #f4f4f4;
+}
+
+/* MAIN-CONTAINER */
+
+.headline {
+  display: flex;
+  display: inline-block;
+
 }
 
 .main-container {
@@ -532,6 +574,7 @@ hr {
 
   margin-top: 10px;
   margin-left: 516px;
+  padding: 14px 32px;
 
   border-radius: 40px;
   background: #f4f4f4;
@@ -545,21 +588,35 @@ hr {
   font-weight: 700;
   line-height: normal;
 
-  margin-top: 34px;
-  margin-left: 28px;
+  margin-bottom: 8px;
+}
+
+.arrow-button {
+  display: flex;
+  float: right;
 }
 
 .arrow {
-  display: inline-flex;
+  display: flex;
+    float: right;
+
   padding: 10px 30px;
   justify-content: center;
   align-items: center;
   gap: 10px;
 
-  margin-left: 240px;
+  margin-top: 10px;
+  margin-right: 40px;
 
   border-radius: 20px;
   background: #e3e5e7;
+}
+
+.arrow-header {
+  display: flex;
+  float: right;
+
+  margin-left: 240px;
 }
 
 .number-phone {
@@ -569,10 +626,8 @@ hr {
   font-weight: 700;
   line-height: normal;
 
-  margin-top: 25px;
-  margin-bottom: 8px;
-
-  margin-left: 26px;
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 .num-phone {
@@ -580,7 +635,6 @@ hr {
   height: 51px;
   flex-shrink: 0;
 
-  margin-left: 24px;
   padding-left: 14px;
 
   border-radius: 20px;
@@ -594,10 +648,8 @@ hr {
   font-weight: 700;
   line-height: normal;
 
-  margin-top: 10px;
   margin-bottom: 10px;
-
-  margin-left: 26px;
+  margin-top: 20px;
 }
 
 .card {
@@ -606,44 +658,34 @@ hr {
   height: 51px;
   flex-shrink: 0;
 
-  margin-left: 24px;
-  padding-left: 14px;
-
   border-radius: 20px;
   background: #e3e5e7;
 }
 
 .button-last {
-  display: flex;
-  float: right;
-
-  display: inline-flex;
   padding: 10px 30px;
   justify-content: center;
   align-items: center;
   gap: 10px;
 
-  margin-top: 5px;
-  margin-right: 40px;
+  display: inline-block;
+  float: right;
+
 
   border-radius: 20px;
   background: #000;
   color: #f4f4f4;
 }
 
+.button-footer {
+  display: flex;
+  float: right;
+}
+
+/* BLOCK-3 */
+
 .block3 {
-  margin-top: 200px;
-}
-
-.QR {
-  margin-top: 40px;
-  margin-left: 20px;
-  margin-bottom: 5px;
-}
-
-.hr {
-  margin: 0;
-  margin-left: 18px;
+  margin-top: 100px;
 }
 
 .contant-left2 {
@@ -660,16 +702,47 @@ hr {
   background: #f4f4f4;
 }
 
+.contant-top {
+  padding: 0 32px;
+}
+
+.botton {
+  padding: 0 32px;
+
+}
+
 .tuch {
   display: flex;
   float: right;
+  margin-right: 12px;
+
+}
+
+.tuch:hover {
+  background-image: url(../img/y-circle.png);
+}
+
+.tuch2 {
+  display: flex;
+  float: right;
+
+  text-align: center;
+  color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 20px;
+}
+
+.x-circle {
+  margin-top: 0;
 }
 
 .cancel-reg {
   float: right;
   text-align: center;
-
-  margin-right: 24px;
 
   color: #000;
   text-align: center;
@@ -683,25 +756,38 @@ hr {
   display: flex;
   float: right;
 
-  margin-top: 20px;
-  margin-right: 39px;
 }
 
 .cross:hover {
   background-image: url(../img/y-circle.png);
 }
 
+.vector3 {
+    display: inline-block;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    padding: 10px 30px;
+    gap: 10px;
+  
+  margin-top: 14px;
+  
+    border-radius: 20px;
+    background: #e3e5e7;
+}
+
 .blue-QR {
   float: right;
-  margin-right: 30px;
-  margin-bottom: 20px;
+}
+
+.QR-scr {
+  padding: 0 32px;
 }
 
 .big-QR {
-  display: flex;
   margin-top: 30px;
-  margin-left: 52px;
-  margin-right: 52px;
+  margin-left: 18px;
 }
 
 .screenshot {
@@ -711,6 +797,6 @@ hr {
   font-weight: 700;
   line-height: normal;
 
+  margin-left: 80px;
   margin-top: 50px;
-  margin-left: 110px;
 }
